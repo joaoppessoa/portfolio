@@ -1,0 +1,40 @@
+.titulo{
+    padding-top: 25%;
+    font-family: "HindSiliguriLight", sans-serif;
+    margin-bottom: -10px;
+}
+
+.titulo h1 span{
+    font-size: 100px;
+    font-weight: 100;
+    color: #5A6B20;
+}
+
+.subtitulo h5 span{
+    color: #526B00;
+    font-size: 30px;
+} 
+
+.paragrafo{
+    padding-top: 50px;
+    font-size: 18px;
+}
+
+@media (max-width: 858px){
+    .titulo{
+        padding-top: 15%;
+        margin-bottom: 2px;
+    }
+
+    .titulo h1 span{
+        font-size: 45px;
+    }
+
+    .subtitulo h5 span{
+        font-size: 20px;
+    }
+
+    .paragrafo{
+        padding-top: 20px;
+    }
+}
